@@ -1,6 +1,6 @@
 //
 //  Infix.swift
-//  TerminalCalculator
+//  ShuntingYard
 //
 //  Created by Purple on 26/08/2018.
 //  Copyright © 2018 Purple. All rights reserved.

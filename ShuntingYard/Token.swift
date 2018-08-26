@@ -1,6 +1,6 @@
 //
 //  Token.swift
-//  TerminalCalculator
+//  ShuntingYard
 //
 //  Created by Purple on 15/07/2018.
 //  Copyright © 2018 Purple. All rights reserved.

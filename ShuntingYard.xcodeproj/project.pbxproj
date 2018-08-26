@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F62A2F9D213196BD00021C5D /* Postfix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62A2F9C213196BD00021C5D /* Postfix.swift */; };
 		F62A2F9F21327A4B00021C5D /* Infix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62A2F9E21327A4B00021C5D /* Infix.swift */; };
-		F643350521305349006CE6E8 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F643350421305349006CE6E8 /* main.cpp */; };
 		F643350A213057D0006CE6E8 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6433509213057D0006CE6E8 /* Queue.swift */; };
 		F651EBF720FA4AC0001E40EB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651EBF620FA4AC0001E40EB /* main.swift */; };
 		F651EC0020FA4B9C001E40EB /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651EBFF20FA4B9C001E40EB /* Stack.swift */; };
@@ -17,15 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F643350021305349006CE6E8 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		F651EBF120FA4ABF001E40EB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -40,23 +30,14 @@
 /* Begin PBXFileReference section */
 		F62A2F9C213196BD00021C5D /* Postfix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Postfix.swift; sourceTree = "<group>"; };
 		F62A2F9E21327A4B00021C5D /* Infix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infix.swift; sourceTree = "<group>"; };
-		F643350221305349006CE6E8 /* TerminalCalculatorCpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TerminalCalculatorCpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		F643350421305349006CE6E8 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		F6433509213057D0006CE6E8 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
-		F651EBF320FA4AC0001E40EB /* TerminalCalculator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TerminalCalculator; sourceTree = BUILT_PRODUCTS_DIR; };
+		F651EBF320FA4AC0001E40EB /* ShuntingYard */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShuntingYard; sourceTree = BUILT_PRODUCTS_DIR; };
 		F651EBF620FA4AC0001E40EB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F651EBFF20FA4B9C001E40EB /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		F651EC0320FA59EC001E40EB /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F64334FF21305349006CE6E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F651EBF020FA4ABF001E40EB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -67,19 +48,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F643350321305349006CE6E8 /* TerminalCalculatorCpp */ = {
-			isa = PBXGroup;
-			children = (
-				F643350421305349006CE6E8 /* main.cpp */,
-			);
-			path = TerminalCalculatorCpp;
-			sourceTree = "<group>";
-		};
 		F651EBEA20FA4ABF001E40EB = {
 			isa = PBXGroup;
 			children = (
-				F651EBF520FA4AC0001E40EB /* TerminalCalculator */,
-				F643350321305349006CE6E8 /* TerminalCalculatorCpp */,
+				F651EBF520FA4AC0001E40EB /* ShuntingYard */,
 				F651EBF420FA4AC0001E40EB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,13 +59,12 @@
 		F651EBF420FA4AC0001E40EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F651EBF320FA4AC0001E40EB /* TerminalCalculator */,
-				F643350221305349006CE6E8 /* TerminalCalculatorCpp */,
+				F651EBF320FA4AC0001E40EB /* ShuntingYard */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F651EBF520FA4AC0001E40EB /* TerminalCalculator */ = {
+		F651EBF520FA4AC0001E40EB /* ShuntingYard */ = {
 			isa = PBXGroup;
 			children = (
 				F651EBF620FA4AC0001E40EB /* main.swift */,
@@ -103,32 +74,15 @@
 				F651EBFF20FA4B9C001E40EB /* Stack.swift */,
 				F6433509213057D0006CE6E8 /* Queue.swift */,
 			);
-			path = TerminalCalculator;
+			path = ShuntingYard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F643350121305349006CE6E8 /* TerminalCalculatorCpp */ = {
+		F651EBF220FA4ABF001E40EB /* ShuntingYard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F643350821305349006CE6E8 /* Build configuration list for PBXNativeTarget "TerminalCalculatorCpp" */;
-			buildPhases = (
-				F64334FE21305349006CE6E8 /* Sources */,
-				F64334FF21305349006CE6E8 /* Frameworks */,
-				F643350021305349006CE6E8 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = TerminalCalculatorCpp;
-			productName = TerminalCalculatorCpp;
-			productReference = F643350221305349006CE6E8 /* TerminalCalculatorCpp */;
-			productType = "com.apple.product-type.tool";
-		};
-		F651EBF220FA4ABF001E40EB /* TerminalCalculator */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F651EBFA20FA4AC0001E40EB /* Build configuration list for PBXNativeTarget "TerminalCalculator" */;
+			buildConfigurationList = F651EBFA20FA4AC0001E40EB /* Build configuration list for PBXNativeTarget "ShuntingYard" */;
 			buildPhases = (
 				F651EBEF20FA4ABF001E40EB /* Sources */,
 				F651EBF020FA4ABF001E40EB /* Frameworks */,
@@ -138,9 +92,9 @@
 			);
 			dependencies = (
 			);
-			name = TerminalCalculator;
+			name = ShuntingYard;
 			productName = TerminalCalculator;
-			productReference = F651EBF320FA4AC0001E40EB /* TerminalCalculator */;
+			productReference = F651EBF320FA4AC0001E40EB /* ShuntingYard */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -153,15 +107,12 @@
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = Purple;
 				TargetAttributes = {
-					F643350121305349006CE6E8 = {
-						CreatedOnToolsVersion = 10.0;
-					};
 					F651EBF220FA4ABF001E40EB = {
 						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
-			buildConfigurationList = F651EBEE20FA4ABF001E40EB /* Build configuration list for PBXProject "TerminalCalculator" */;
+			buildConfigurationList = F651EBEE20FA4ABF001E40EB /* Build configuration list for PBXProject "ShuntingYard" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -173,21 +124,12 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F651EBF220FA4ABF001E40EB /* TerminalCalculator */,
-				F643350121305349006CE6E8 /* TerminalCalculatorCpp */,
+				F651EBF220FA4ABF001E40EB /* ShuntingYard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F64334FE21305349006CE6E8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F643350521305349006CE6E8 /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F651EBEF20FA4ABF001E40EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -204,24 +146,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F643350621305349006CE6E8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JV6A999PY8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		F643350721305349006CE6E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JV6A999PY8;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		F651EBF820FA4AC0001E40EB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -360,16 +284,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F643350821305349006CE6E8 /* Build configuration list for PBXNativeTarget "TerminalCalculatorCpp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F643350621305349006CE6E8 /* Debug */,
-				F643350721305349006CE6E8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F651EBEE20FA4ABF001E40EB /* Build configuration list for PBXProject "TerminalCalculator" */ = {
+		F651EBEE20FA4ABF001E40EB /* Build configuration list for PBXProject "ShuntingYard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F651EBF820FA4AC0001E40EB /* Debug */,
@@ -378,7 +293,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F651EBFA20FA4AC0001E40EB /* Build configuration list for PBXNativeTarget "TerminalCalculator" */ = {
+		F651EBFA20FA4AC0001E40EB /* Build configuration list for PBXNativeTarget "ShuntingYard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F651EBFB20FA4AC0001E40EB /* Debug */,

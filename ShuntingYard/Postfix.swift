@@ -1,6 +1,6 @@
 //
 //  PostfixEvaluator.swift
-//  TerminalCalculator
+//  ShuntingYard
 //
 //  Created by Purple on 25/08/2018.
 //  Copyright © 2018 Purple. All rights reserved.
